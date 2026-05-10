@@ -1,5 +1,5 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="./images/image.png" width="800"/>
+  <img src="./images/preview.png" width="800"/>
 </p>
