@@ -1,0 +1,21 @@
+.with-text{
+    transition: 0.3s ease;
+}
+
+.jbox{
+    transition: 0.3s ease;
+
+}
+
+.jbox img{
+    transition: 0.3s ease;
+}
+
+.with-text:hover .jbox{
+    transform: rotate(0deg) scale(3);
+
+}
+
+.with-text:hover img{
+    transform: scale(1.1);
+}
