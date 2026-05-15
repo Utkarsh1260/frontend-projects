@@ -1,0 +1,21 @@
+.circle-txt{
+    overflow: hidden;
+}
+
+.circle-txt img{
+    transform-origin: center center;
+}
+
+.circle-txt:hover img{
+    animation: infiniteRotate 10s linear infinite;
+}
+
+@keyframes infiniteRotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
