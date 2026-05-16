@@ -9,5 +9,5 @@ Built with HTML, CSS, and modern responsive design principles.
 
 
 <p align="center">
-  <img src="./images/preview.png" width="800"/>
+  <img src="./assets/images/preview.png" width="800"/>
 </p>s
