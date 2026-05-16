@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+
+}
+
+body {
+    padding: 15px 12px;
+}
+
+main {
+    /* background-color: red; */
+    height: 100%;
+
+}
+
+
+/* home  */
+.home {
+    padding: 0 10px;
+    background-image: url(./assets/images/home-background.avif);
+    background-size: cover;
+
+    background-position: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 10% 30% 40% 20%;
+
+    grid-template-areas: "nav-logo . right-nav"
+        ". . . "
+        ". hero ."
+        ". . .";
+}
+
+.nav-logo {
+    align-self: center;
+    grid-area: nav-logo;
+    color: white;
+    font-weight: 700;
+}
+
+
+.right-nav {
+    /* background-color: aqua; */
+    grid-area: right-nav;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    /* background-color: aqua; */
+    grid-area: hero;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.hero h1 {
+    font-size: 900%;
+}
+
+.hero p {
+    font-size: 130%;
+}
+
+.hline {
+    background-color: white;
+    width: 5.5%;
+    height: 1%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+.home a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* page - 2  article*/
+.latest-article {
+    height: 100vh;
+    background-color: rgb(245, 247, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.articles {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.article-line {
+    width: 60px;
+    height: 1px;
+
+    background-color: black;
+
+}
+
+.a-card1 {
+
+    width: 260px;
+    height: 380px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.a-card1 img {
+    width: 100%;
+    height: 50%;
+
+}
+
+.card-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+    gap: 35px;
+
+    text-align: center;
+}
+
+.article-cards {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-content p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* page - 3 about  */
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-content {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 45px;
+
+    padding: 80px;
+}
+
+.about-content h1 {
+    font-size: 3rem;
+}
+
+.about-content p {
+    max-width: 700px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.article-line {
+    width: 80px;
+    height: 4px;
+    background-color: black;
+}
+
+/* page - 4 subscribe and social links  */
+.footer{
+    height: 100vh;
+}
+
+.subscribe{
+    height: 60%;
+    background-color: rgb(245,247,246);
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.subscribe p{
+    font-size: 1.2rem;
+}
+
+.subscribe form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.subscribe input{
+    width: 300px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.subscribe input::placeholder{
+    color: #9c9c9c;
+}
+
+.subscribe button{
+    padding: 8px 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.footer-social{
+    height: calc(100vh - 60%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 500px;
+}
+
+
+
+.footer-social .icons{
+    display: flex;
+    font-weight: 900;
+    font-size: 1.5rem;
+    gap: 10px;
+
+  
+}
+
+.icons i{
+    color: black;
+}
+
+.footer-social .footer-content{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social .footer-content a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+
+
+}

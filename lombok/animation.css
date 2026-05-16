@@ -1,0 +1,26 @@
+
+.home a:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 10px ;
+    border-radius: 3px;
+}
+
+.subscribe button:hover{
+    background-color: black;
+    color: white;
+}
+
+.subscribe input:focus{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.a-card1{
+    transition: transform 0.6s ease;
+}
+
+.a-card1:hover{
+    transform: scale(1.2);
+  
+}
