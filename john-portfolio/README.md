@@ -2,7 +2,7 @@
 
 Experience the project live here:  
 
-👉 [Live Website](https://frontend-projects-8syikxpld-utkarshcyber01-2056s-projects.vercel.app/)
+👉 [Live Website](https://utkarsh1260.github.io/frontend-projects/john-portfolio/)
 
 Built with HTML, CSS, and modern responsive design principles.
 
