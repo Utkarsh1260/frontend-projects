@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    /* background-color: red; */
+
     height: 100%;
 
 }
@@ -100,7 +100,7 @@ a {
 
 /* page - 2  article*/
 .latest-article {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(245, 247, 246);
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ a {
 
 /* page - 3 about  */
 .about {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: space-between;
 }
@@ -279,10 +279,22 @@ a {
 .footer-social .icons{
     display: flex;
     font-weight: 900;
-    font-size: 1.5rem;
-    gap: 10px;
 
-  
+    gap: 10px;
+    
+}
+
+.footer-social .icons a{
+
+        color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 50%;
+
+    transition: 0.3s;
 }
 
 .icons i{
@@ -294,10 +306,19 @@ a {
     gap: 20px;
 }
 
+
 .footer-social .footer-content a{
     color: black;
     font-size: 1rem;
     font-weight: 700;
 
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 3px;
 
+    transition: 0.3s;
 }
+
+
+
+

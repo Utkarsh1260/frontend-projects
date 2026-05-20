@@ -24,3 +24,13 @@
     transform: scale(1.2);
   
 }
+
+
+.footer-content a:hover{
+ border-color: black;
+}
+
+
+.footer-social .icons a:hover{
+ border-color: black;
+}
